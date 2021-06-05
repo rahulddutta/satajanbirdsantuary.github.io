@@ -1,0 +1,23 @@
+.sata {
+  color: #fdc500;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+@media screen and (max-width:900px) {
+  .sata {
+    font-size: 25px;
+  }
+}
+
+.satainfo {
+  text-align: justify;
+  font-size: 30px;
+}
+
+@media screen and (max-width:900px) {
+  .satainfo {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
