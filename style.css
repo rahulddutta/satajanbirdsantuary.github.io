@@ -22,6 +22,11 @@
   }
 }
 
+
+.baliram {
+  text-align: justify;
+}
+
 @font-face {
   font-display: block;
   font-family: Roboto;
@@ -68,3 +73,4 @@
   font-family: "Helvetica", sans-serif;
   color: #c0ccda;
 }
+
