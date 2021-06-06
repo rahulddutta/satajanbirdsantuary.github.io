@@ -2,6 +2,21 @@
   color: #fdc500;
   font-family: 'Oleo Script', cursive;
   font-size: 43.2px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow:hidden;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -13,7 +28,9 @@
 .satainfo {
   text-align: justify;
   font-size: 18px;
+  animation-duration: 3s;
 }
+
 
 @media screen and (max-width: 900px) {
   .satainfo {
