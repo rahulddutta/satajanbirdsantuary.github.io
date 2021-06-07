@@ -91,3 +91,15 @@
   color: #c0ccda;
 }
 
+
+.coming {
+  display: flex;
+  justify-content: center;
+  padding: 250px 0 250px 0;
+  color: #fdc500;
+  font-family: 'Oleo Script', cursive;
+  font-size: 43.2px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow:hidden;
+}
